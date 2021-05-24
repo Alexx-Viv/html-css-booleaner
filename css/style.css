@@ -41,3 +41,10 @@ figcaption {
   font-size: 12px;
 }
 /* Titolo Articolo Fine */
+
+/* Articolo Inizio */
+.evidenziato{
+    background-color: yellow;
+}
+
+/* Articolo Fine */
