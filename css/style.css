@@ -1,23 +1,43 @@
-body{
-    margin: 0px;
-    padding: 0px;
-  }
+body {
+  margin: 0px;
+  padding: 0px;
+}
 
-  /* Logo Inizio */
-header{
-    height: 90px;
-    background-image: url(../img/pattern.png);
-    background-color: rgb(78, 170, 255);
-    background-size: contain;
+/* Logo Inizio */
+header {
+  height: 90px;
+  background-image: url(../img/pattern.png);
+  background-color: rgb(78, 170, 255);
+  background-size: contain;
 }
 
 .logo {
-    background-image: url(../img/logo.svg);
-    background-repeat: no-repeat;
-    height: 45px;
-    position: absolute;
-    top: 40px;
-    left: 1%;
-    right: 0;
-  }
-    /* Logo Fine */
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  height: 45px;
+  position: absolute;
+  top: 40px;
+  left: 1%;
+  right: 0;
+}
+/* Logo Fine */
+
+main {
+  margin-left: 1%;
+}
+
+/* Titolo Articolo Inizio */
+address {
+  color: lightslategray;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(100, 200, 240);
+}
+
+figcaption {
+  font-size: 12px;
+}
+/* Titolo Articolo Fine */
