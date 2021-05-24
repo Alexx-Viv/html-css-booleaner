@@ -2,6 +2,10 @@ body {
   margin: 0px;
   padding: 0px;
 }
+main {
+  margin-left: 1%;
+  margin-right: 1%;
+}
 
 /* Logo Inizio */
 header {
@@ -21,11 +25,6 @@ header {
   right: 0;
 }
 /* Logo Fine */
-
-main {
-  margin-left: 1%;
-  margin-right: 1%;
-}
 
 /* Titolo Articolo Inizio */
 address {
@@ -65,3 +64,30 @@ thead {
   width: 60%;
 }
 /* Articolo Fine */
+
+/* footer inizio */
+.consigli {
+  color: lightslategray;
+  font-size: 16px;
+}
+.articolo_consigliato_uno {
+  width: 200px;
+  height: 120px;
+  background-image: url(../img/monitor.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.articolo_consigliato_due {
+  width: 200px;
+  height: 120px;
+  background-image: url(../img/graph.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.titolo_consiglio {
+  color: white;
+  font-size: 16px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+/* Footer Fine */
