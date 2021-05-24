@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* Logo Inizio */
+header{
+    height: 90px;
+    background-image: url(../img/pattern.png);
+    background-color: rgb(78, 170, 255);
+    background-size: contain;
+}
+
+.logo {
+    background-image: url(../img/logo.svg);
+    background-repeat: no-repeat;
+    height: 45px;
+    position: absolute;
+    top: 40px;
+    left: 1%;
+    right: 0;
+  }
+    /* Logo Fine */
