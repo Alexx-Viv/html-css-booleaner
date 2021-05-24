@@ -24,6 +24,7 @@ header {
 
 main {
   margin-left: 1%;
+  margin-right: 1%;
 }
 
 /* Titolo Articolo Inizio */
@@ -43,8 +44,24 @@ figcaption {
 /* Titolo Articolo Fine */
 
 /* Articolo Inizio */
-.evidenziato{
-    background-color: yellow;
+.evidenziato {
+  background-color: yellow;
 }
-
+table {
+  text-align: left;
+  border-collapse: collapse;
+}
+thead {
+  background-color: rgb(32, 169, 229);
+  color: white;
+}
+.speciale {
+  background-color: rgb(177, 229, 242);
+}
+.piccola_cella {
+  width: 20%;
+}
+.grande_cella {
+  width: 60%;
+}
 /* Articolo Fine */
