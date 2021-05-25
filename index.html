@@ -4,54 +4,60 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>The Booleaner</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Logo Inizio -->
-    <header>
-      <div class="logo"></div>
+    <header class="main_header">
+      <div class="container">
+        <img id="logo" src="./img/logo.svg" alt="Logo The Booleaner" />
+      </div>
     </header>
     <!-- Logo Fine -->
 
-    <main>
+    <main class="container">
       <!-- Titolo Articolo Inizio -->
-      <div class="titolo_articolo">
-        <h1>
-          Internet deve essere al servizio del "bene pubblico": il manifesto di
-          Tim Berners-Lee
-        </h1>
-        <address>
-          Scritto da <a href="www.booleaners.com">The Booleaner</a>
-          <br />
-          il 10/10/2020
-        </address>
-      </div>
-      <!-- Titolo Articolo Fine -->
-
-      <br />
-      <!-- Foto Articolo Inizio -->
-      <div class="foto_articolo">
-        <img src="./img/tim-1.jpg" alt="Tim Lee, Knight Foundation" />
-        <img src="./img/tim-2.jpg" alt="Tim Lee" />
-        <figcaption>
-          1st Photo: Jhon S. and James L. Knight Foundation, by Scott Henrichsen
-        </figcaption>
-        <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
-      </div>
-      <!-- Foto Articolo Fine -->
-
-      <!-- Articolo Inizio -->
       <article>
+        <header class="article_header">
+          <h1>
+            Internet deve essere al servizio del "bene pubblico": il manifesto
+            di Tim Berners-Lee
+          </h1>
+          <address>
+            Scritto da
+            <a class="author_name" href="www.booleaners.com">The Booleaner</a>
+          </address>
+          <time class="pubdate" datetime="2020-10-10 19:00">il 10/10/2020</time>
+        </header>
+        <br>
+        
+        <!-- Titolo Articolo Fine -->
+
+        
+        <!-- Foto Articolo Inizio -->
+        <div class="article_pics">
+          <img src="./img/tim-1.jpg" alt="Tim Lee, Knight Foundation" />
+          <img src="./img/tim-2.jpg" alt="Tim Lee" />
+          <figcaption>
+            1st Photo: Jhon S. and James L. Knight Foundation, by Scott
+            Henrichsen
+          </figcaption>
+          <figcaption>2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+        </div>
+        <!-- Foto Articolo Fine -->
+
+        <!-- Articolo Inizio -->
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad recusandae
           sint distinctio atque, dicta debitis at repellendus maiores laborum
           incidunt fuga, ullam in voluptate, hic quidem ex? Quae, quasi libero.
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo
           suscipit minus aut ratione
-          <di class="evidenziato">
+          <div class="evidenziato">
             laudantium consectetur, nesciunt nisi veritatis at iustopraesentium
-            natus distinctio quisquam</di
+            natus distinctio quisquam</div
           >
           totam eveniet exercitationem tempora expedita? Lorem ipsum dolor sit
           amet consectetur adipisicing elit. Magni atque ut optio tempore
@@ -141,18 +147,18 @@
       </article>
       <!-- Articolo Fine -->
 
-      <!-- Footer Inizio -->
-      <footer>
-        <h2 class="consigli">Potrebbero interessarti</h2>
-
-        <div class="articolo_consigliato_uno">
-          <h3 class="titolo_consiglio">Lorem ipsum dolor</h3>
-        </div>
-        <div class="articolo_consigliato_due">
-            <h3 class="titolo_consiglio">Lorem ipsum dolor</h3>
-          </div>
-      </footer>
-      <!-- Footer Fine -->
+            <!-- Footer Inizio -->
+            <footer>
+              <h2 class="consigli">Potrebbero interessarti</h2>
+      
+              <div class="articolo_consigliato_uno">
+                <h3 class="titolo_consiglio">Lorem ipsum dolor</h3>
+              </div>
+              <div class="articolo_consigliato_due">
+                <h3 class="titolo_consiglio">Lorem ipsum dolor</h3>
+              </div>
+            </footer>
+            <!-- Footer Fine -->
     </main>
   </body>
 </html>
